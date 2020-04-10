@@ -1,0 +1,113 @@
+.home
+{
+    background-image: url('img/intro-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+  
+}
+.home-text h1
+{
+    font-size: 3rem;
+}
+.home-text h4
+{
+    font-size: 2rem;
+
+}
+.layer
+{
+    background-color:rgb(0, 0, 0,0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.navbar-brand
+{
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.nav-link
+{
+    font-weight: 600;
+}
+.bold
+{
+    font-weight: 800;
+
+}
+.line
+{
+    height: 3px;
+    background-color: blue;
+    width: 10%;
+}
+.about-text-size
+{
+    font-size: 1.5rem;
+}
+.head h1
+{
+    font-weight: 700;
+}
+.card-body i
+{
+   border-radius: 50%;
+   padding: 25px;
+   border: 10px solid #0099cc;
+   transition: color 0.5s , background-color 0.5s , border-color 0.5s;
+   
+}
+.card:hover i
+{
+    background-color: #0099cc;
+    color: white;
+    border-color: skyblue;
+}
+.sympol i
+{
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 20px;
+    border: 10px solid wheat;
+
+}
+.bg
+{
+    background-image: url('img/overlay-bg.jpg');
+    background-size: contain;
+    width: 100%;
+    height: 65vh;
+    background-attachment: fixed   
+}
+.layer2
+{
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(42, 134, 170 ,0.5);
+   
+}
+.xx
+{
+    font-size: 1.5rem;
+    color: white;
+}
+.card img
+{
+    transition: transform 0.5s;
+}
+.card:hover img
+{
+    transform: scale(1.2);
+}
+.over
+{
+    overflow: hidden;    
+
+}
